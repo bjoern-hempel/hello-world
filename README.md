@@ -29,3 +29,21 @@ Now install this application:
 ```
 user$ sudo friends-of-bash install "git@github.com:bjoern-hempel/hello-world.git"
 ```
+
+### A.2) show version
+
+```
+user$ hello-world --version
+v0.0.0
+```
+
+### A.3) show help
+
+```
+user$ hello-world --help
+
+Usage: /usr/local/bin/hello-world [options...]
+ -h,    --help                    Shows this help.
+
+ -v,    --version                 Shows the version number.
+```
