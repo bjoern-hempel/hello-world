@@ -44,8 +44,7 @@ hello-world/v0.0.0
 ### A.3) update this application
 
 ```
-user$ friends-of-bash version hello-world
-hello-world/v0.0.0
+user$ friends-of-bash update hello-world
 ```
 
 ### A.4) show help
