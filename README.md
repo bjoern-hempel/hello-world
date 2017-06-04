@@ -6,9 +6,7 @@ An hello world example. :)
 
 ### A.1) installation
 
-First install the friends of bash libraries: https://github.com/bjoern-hempel/friends-of-bash
-
-In short:
+First install the friends of bash libraries (https://github.com/bjoern-hempel/friends-of-bash). In short:
 
 ```
 user$ cd ~
