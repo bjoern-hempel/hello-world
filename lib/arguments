@@ -18,7 +18,7 @@ while [[ $# > 0 ]]; do
         # help:  -v,    --version                 Shows the version number.
         # help:
         -v|--version)
-            version=$(getCurrentTagFromGivenPath "$pathRoot")
+            version=$(getRepositoryVersion "$pathRoot")
             echo "$version"
             exit 0
             ;;
