@@ -41,7 +41,7 @@ user$ friends-of-bash version hello-world
 hello-world/v0.0.0
 ```
 
-### A.3) update
+### A.3) update this application
 
 ```
 user$ friends-of-bash version hello-world
