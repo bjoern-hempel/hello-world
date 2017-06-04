@@ -31,10 +31,24 @@ user$ cd .. && rm -rf friends-of-bash
 
 ```
 user$ hello-world --version
-v0.0.0
+hello-world/v0.0.0
 ```
 
-### A.3) show help
+or
+
+```
+user$ friends-of-bash version hello-world
+hello-world/v0.0.0
+```
+
+### A.3) update
+
+```
+user$ friends-of-bash version hello-world
+hello-world/v0.0.0
+```
+
+### A.4) show help
 
 ```
 user$ hello-world --help
@@ -43,4 +57,11 @@ Usage: /usr/local/bin/hello-world [options...]
  -h,    --help                    Shows this help.
 
  -v,    --version                 Shows the version number.
+```
+
+### A.5) execute hello-world
+
+```
+user$ hello-world
+[2017-06-04 23:04:26] [HEADER‧] HELLO WORLD! :)
 ```
