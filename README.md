@@ -6,26 +6,25 @@ An hello world example. :)
 
 ### A.1) installation
 
-First install the friends of bash libraries (https://github.com/bjoern-hempel/friends-of-bash). In short:
-
-```
-user$ cd ~
-user$ git clone git@github.com:bjoern-hempel/friends-of-bash.git && cd friends-of-bash
-user$ sudo -E bin/install
-user$ cd .. && rm -rf friends-of-bash
-```
-
-Check that the friends of bash libraries are available:
+This application uses the friends of bash libraries (https://github.com/bjoern-hempel/friends-of-bash). Check that the libraries are available:
 
 ```
 user$ friends-of-bash --version
 friends-of-bash/v0.0.11
 ```
 
-Now install this application:
+If you can see a similar friends of bash version output like above, you can now install this application:
 
 ```
 user$ sudo -E friends-of-bash install "git@github.com:bjoern-hempel/hello-world.git"
+```
+
+If you don't have installed the friends of bash libraries, please install them first. In short:
+
+```
+user$ cd ~ && git clone git@github.com:bjoern-hempel/friends-of-bash.git && cd friends-of-bash
+user$ sudo -E bin/install
+user$ cd .. && rm -rf friends-of-bash
 ```
 
 ### A.2) show version
