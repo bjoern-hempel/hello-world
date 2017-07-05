@@ -10,7 +10,7 @@ This application uses the friends of bash libraries (https://github.com/bjoern-h
 
 ```
 user$ friends-of-bash --version
-friends-of-bash/v0.0.11
+friends-of-bash/v0.0.31
 ```
 
 If you can see a similar friends of bash version output like above, you can now install this application:
