@@ -27,7 +27,9 @@ user$ sudo -E bin/install
 user$ cd .. && rm -rf friends-of-bash
 ```
 
-### A.2) show version
+## 1.) Usage
+
+### 1.1) Show the version number (`--version`)
 
 ```
 user$ hello-world --version
@@ -41,13 +43,13 @@ user$ friends-of-bash version hello-world
 hello-world/v1.0.3
 ```
 
-### A.3) update this application
+### 1.2) Update this application
 
 ```
-user$ friends-of-bash update hello-world
+user$ friends-of-bash update hello-world [-y]
 ```
 
-### A.4) show help
+### 1.3) Show the help dialog (`--help`)
 
 ```
 user$ hello-world --help
@@ -58,10 +60,15 @@ Usage: /usr/local/bin/hello-world [options...]
  -v,    --version                 Shows the version number.
 ```
 
-### A.5) execute hello-world
+### 1.4) Execute hello-world
 
 ```
 user$ hello-world
 [2017-06-04 23:04:26] [HEADER‧] HELLO WORLD! :)
 ```
 
+## B.) License
+
+MIT © [Björn Hempel](https://www.ixno.de/hello-world)
+
+Have fun! :)
