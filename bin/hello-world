@@ -31,6 +31,24 @@
 # @copyright Written by Björn Hempel <bjoern@hempel.li>.
 # ------------
 
+# trap ctrl-c and exit
+trap ctrlC INT
+trap finish EXIT
+
+# trap ctrl-c function
+function ctrlC()
+{
+    log 'info' "Script was cancelled by user (ctrl-c)."
+    exit 0
+}
+
+# trap exit function
+function finish()
+{
+    log 'info' "Script was finished normally."
+    exit 0
+}
+
 # some needed applications
 applications=()
 
